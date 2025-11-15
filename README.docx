@@ -1,282 +1,156 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>Exported Document</title>
-	<meta name="generator" content="LibreOffice 24.2.7.2 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2025-11-15T19:21:45.701313918"/>
-	<meta name="" content=""/>
-	<style type="text/css">
-		@page { size: 8.27in 11.69in; margin-left: 0.79in; margin-right: 0.39in; margin-top: 0.39in; margin-bottom: 0.39in }
-		p { font-family: "Arial", sans-serif; line-height: 115%; margin-bottom: 0.1in; background: transparent }
-		h1 { margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
-		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
-		h1.cjk { font-family: "Noto Serif CJK SC"; font-size: 24pt; font-weight: bold }
-		h1.ctl { font-family: "FreeSans"; font-size: 24pt; font-weight: bold }
-		h2 { margin-top: 0.14in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
-		h2.western { font-family: "Liberation Serif", serif; font-size: 18pt; font-weight: bold }
-		h2.cjk { font-family: "Noto Serif CJK SC"; font-size: 18pt; font-weight: bold }
-		h2.ctl { font-family: "FreeSans"; font-size: 18pt; font-weight: bold }
-		h3 { margin-top: 0.1in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
-		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
-		h3.cjk { font-family: "Noto Serif CJK SC"; font-size: 14pt; font-weight: bold }
-		h3.ctl { font-family: "FreeSans"; font-size: 14pt; font-weight: bold }
-		pre { background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "Noto Sans Mono CJK SC", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		strong { font-weight: bold }
-		code.western { font-family: "Liberation Mono", monospace }
-		code.cjk { font-family: "Noto Sans Mono CJK SC", monospace }
-		code.ctl { font-family: "Liberation Mono", monospace }
-	</style>
-</head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><h1 class="western">
-Отчет по выполнению задач анализа данных
-ЭЭГ</h1>
-<h2 class="western"><a name="-1"></a>📋 Обзор выполнения</h2>
-<h3 class="western"><a name="1erp"></a>Задача 1: Анализ
-вызванных потенциалов (ERP)</h3>
+
+      <html xmlns:o='urn:schemas-microsoft-com:office:office'
+            xmlns:w='urn:schemas-microsoft-com:office:word'
+            xmlns='http://www.w3.org/TR/REC-html40'>
+      <head>
+          <meta charset="utf-8">
+          <title>Exported Document</title>
+          <style>
+              body { font-family: Arial, sans-serif; }
+          </style>
+      </head>
+      <body>
+          <h1 id="">Отчет по выполнению задач анализа данных ЭЭГ</h1>
+<h2 id="-1">📋 Обзор выполнения</h2>
+<h3 id="1erp">Задача 1: Анализ вызванных потенциалов (ERP)</h3>
 <p><strong>Статус:</strong> ✅ Выполнена</p>
 <p><strong>Основные результаты:</strong></p>
 <ul>
-	<li><p style="margin-bottom: 0in">Обработаны данные
-	16 респондентов 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Созданы 24 графика
-	ERP для каждого типа стимула 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Выполнена предобработка
-	сигналов (фильтрация, удаление артефактов,
-	референсирование) 
-	</p></li>
-	<li><p>Проведено усреднение по всем
-	респондентам для каждого стимула 
-	</p></li>
+<li>Обработаны данные 16 респондентов</li>
+<li>Созданы 24 графика ERP для каждого типа стимула</li>
+<li>Выполнена предобработка сигналов (фильтрация, удаление артефактов, референсирование)</li>
+<li>Проведено усреднение по всем респондентам для каждого стимула</li>
 </ul>
 <p><strong>Технические детали:</strong></p>
 <ul>
-	<li><p style="margin-bottom: 0in">Использована
-	библиотека MNE для обработки ЭЭГ-данных
-		</p></li>
-	<li><p style="margin-bottom: 0in">Применен band-pass фильтр
-	1-30 Гц 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Референсирование к
-	среднему значению 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Интервал анализа:
-	-200 мс до +1000 мс относительно стимула 
-	</p></li>
-	<li><p>Базовая коррекция по предстимульному
-	интервалу 
-	</p></li>
+<li>Использована библиотека MNE для обработки ЭЭГ-данных</li>
+<li>Применен band-pass фильтр 1-30 Гц</li>
+<li>Референсирование к среднему значению</li>
+<li>Интервал анализа: -200 мс до +1000 мс относительно стимула</li>
+<li>Базовая коррекция по предстимульному интервалу</li>
 </ul>
-<h3 class="western"><a name="2"></a>Задача 2: Анализ
-эмоциональных метрик</h3>
+<h3 id="2">Задача 2: Анализ эмоциональных метрик</h3>
 <p><strong>Статус:</strong> ✅ Выполнена</p>
 <p><strong>Основные результаты:</strong></p>
 <ul>
-	<li><p style="margin-bottom: 0in">Созданы графики по
-	7 эмоциональным метрикам: 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Stress, Interest, Engagement,
-	Attention, Excitement, Relaxation, Focus 
-	</p></li>
-	<li><p style="margin-bottom: 0in">Построены графики
-	для всех участников, отдельно для женщин
-	и мужчин 
-	</p></li>
-	<li><p>Выполнена синхронизация временных
-	меток с использованием пилотных данных
-		</p></li>
+<li>Созданы графики по 7 эмоциональным метрикам:</li>
+<li>Stress, Interest, Engagement, Attention, Excitement, Relaxation, Focus</li>
+<li>Построены графики для всех участников, отдельно для женщин и мужчин</li>
+<li>Выполнена синхронизация временных меток с использованием пилотных данных</li>
 </ul>
-<p><strong>Дополнительная задача (со
-звездочкой):</strong></p>
+<p><strong>Дополнительная задача (со звездочкой):</strong></p>
 <ul>
-	<li><p style="margin-bottom: 0in">✅ Созданы отдельные
-	графики для женщин (8 человек) 
-	</p></li>
-	<li><p>✅ Созданы отдельные графики для
-	мужчин (8 человек) 
-	</p></li>
+<li>✅ Созданы отдельные графики для женщин (8 человек)</li>
+<li>✅ Созданы отдельные графики для мужчин (8 человек)</li>
 </ul>
-<h2 class="western"><a name="-2"></a>🚨 Проблемы и решения</h2>
-<h3 class="western"><a name="-3"></a>Проблемы с именами
-файлов:</h3>
+<h2 id="-2">🚨 Проблемы и решения</h2>
+<h3 id="-3">Проблемы с именами файлов:</h3>
 <ol>
-	<li><p><strong>Некорректные названия RAW-файлов:</strong>
-		</p></li>
+<li><strong>Некорректные названия RAW-файлов:</strong></li>
 </ol>
 <ul>
-	<li><p style="margin-bottom: 0in"><code class="western">(2,3,4,5)_Восприятие
-	инфоповодов_RAW.csv</code> - отсутствовал
-	суффикс <code class="western">_RAW</code> 
-	</p></li>
-	<li><p>Решение: адаптирован код для
-	обработки файлов с разными форматами
-	имен 
-	</p></li>
+<li><code>(2,3,4,5)_Восприятие инфоповодов.csv</code> - отсутствовал суффикс <code>_RAW</code></li>
+<li>Решение: переименовал на <code>(2,3,4,5)_Восприятие инфоповодов_RAW.csv</code></li>
 </ul>
 <ol>
-	<li><p><strong>Ошибка в имени маркерного
-	файла:</strong> 
-	</p></li>
+<li><strong>Ошибка в имени маркерного файла:</strong></li>
 </ol>
 <ul>
-	<li><p style="margin-bottom: 0in"><code class="western">4_Восприятие
-	инфоповодов__intervalMarker.csv</code> - лишнее
-	подчеркивание 
-	</p></li>
-	<li><p>Решение: добавлена проверка
-	альтернативных имен файлов 
-	</p></li>
+<li><code>4_Восприятие инфоповодов__intervalMarker.csv</code> - лишнее подчеркивание</li>
+<li>Решение: переименовал на <code>4_Восприятие инфоповодов_intervalMarker.csv</code></li>
 </ul>
-<h3 class="western"><a name="-4"></a>Проблемы с данными:</h3>
+<h3 id="-4">Проблемы с данными:</h3>
 <ol>
-	<li><p><strong>Разделители в файлах:</strong> 
-	</p></li>
+<li><strong>Разделители в файлах:</strong></li>
 </ol>
 <ul>
-	<li><p style="margin-bottom: 0in">В <code class="western">1_RAW
-	DATA.csv</code> использовались точки с запятой
-	как сепараторы 
-	</p></li>
-	<li><p>Решение: адаптирован парсинг CSV с
-	учетом разных разделителей 
-	</p></li>
+<li>В <code>1_RAW DATA.csv</code> использовались точки с запятой как сепараторы</li>
+<li>Решение: отредактировал данные, везде заменил точки с запятой на запятые</li>
 </ul>
 <ol>
-	<li><p><strong>Отсутствующие маркеры:</strong> 
-	</p></li>
+<li><strong>Отсутствующие маркеры:</strong></li>
 </ol>
 <ul>
-	<li><p style="margin-bottom: 0in"><strong>Задача 1:</strong>
-	отсутствовали маркеры <code class="western">VK_MUSK_INFO</code>,
-	<code class="western">TG_EGE_THR</code>, <code class="western">VK_EGE_THR</code>
-		</p></li>
-	<li><p style="margin-bottom: 0in"><strong>Задача 2:</strong>
-	отсутствовал маркер для стимула
-	<code class="western">VK_MUSK_INFO</code> 
-	</p></li>
-	<li><p>Решение: добавлена обработка случаев
-	с отсутствующими маркерами 
-	</p></li>
+<li><strong>Задача 1:</strong> отсутствовали маркеры <code>VK_MUSK_INFO</code>, <code>TG_EGE_THR</code>, <code>VK_EGE_THR</code></li>
+<li><strong>Задача 2:</strong> отсутствовал маркер для стимула <code>VK_MUSK_INFO</code></li>
 </ul>
-<h2 class="western"><a name="-5"></a>🛠 Инструкция по
-запуску</h2>
-<h3 class="western"><a name="-6"></a>Предварительные
-требования</h3>
+<p><b>На отсутствующие метрика графиков нету!</b></p>
+<h2 id="-5">🛠 Инструкция по запуску</h2>
+<h3 id="-6">Предварительные требования</h3>
 <ul>
-	<li><p style="margin-bottom: 0in">Python 3.11+ 
-	</p></li>
-	<li><p>Poetry (менеджер зависимостей) 
-	</p></li>
+<li>Python 3.11+</li>
+<li>Poetry (менеджер зависимостей)</li>
 </ul>
-<h3 class="western"><a name="-7"></a>Установка и настройка</h3>
+<h3 id="-7">Установка и настройка</h3>
 <ol>
-	<li><p><strong>Установка Poetry:</strong> 
-	</p></li>
+<li><strong>Подготовка данных</strong></li>
 </ol>
-<pre class="western" style="margin-bottom: 0.2in"><code class="western">curl -sSL https://install.python-poetry.org | python3 -</code></pre>
+<p>Скачать данные по ссылке <a href="https://disk.yandex.ru/d/8gIdDixWbvT6Hg">https://disk.yandex.ru/d/8gIdDixWbvT6Hg</a> и распаковать их в папку `data/condition`</p>
+<p><b>Некоторые данные нужно модифицировать - описал выше в пункте "Проблемы и решения"!</b></p>
 <ol start="2">
-	<li><p><strong>Клонирование проекта и установка
-	зависимостей:</strong> 
-	</p></li>
+<li><strong>Установка Poetry:</strong></li>
 </ol>
-<pre class="western"><code class="western"># Распаковать данные в папку data/condition</code>
-<code class="western">poetry install</code></pre><h3 class="western">
-<a name="-8"></a>Запуск задач</h3>
+<pre><code class="bash language-bash">curl -sSL https://install.python-poetry.org | python3 -
+</code></pre>
+<ol start="3">
+<li><strong>Установка зависимостей:</strong></li>
+</ol>
+<pre><code class="bash language-bash">poetry install
+</code></pre>
+<h3 id="-8">Запуск задач</h3>
 <p><strong>Задача 1 - Анализ ERP:</strong></p>
-<pre class="western" style="margin-bottom: 0.2in"><code class="western">poetry run python3 task1/main.py</code></pre>
+<pre><code class="bash language-bash">poetry run python3 task1/main.py
+</code></pre>
 <ul>
-	<li><p style="margin-bottom: 0in">Результаты: папка
-	<code class="western">erp_results/</code> 
-	</p></li>
-	<li><p>Содержит: 24 графика ERP + текстовый
-	отчет 
-	</p></li>
+<li>Результаты: папка <code>erp_results/</code></li>
+<li>Содержит: 24 графика ERP + текстовый отчет</li>
 </ul>
-<p><strong>Задача 2 - Анализ эмоциональных
-метрик:</strong></p>
-<pre class="western" style="margin-bottom: 0.2in"><code class="western">poetry run python3 task2/main.py</code></pre>
+<p><strong>Задача 2 - Анализ эмоциональных метрик:</strong></p>
+<pre><code class="bash language-bash">poetry run python3 task2/main.py
+</code></pre>
 <ul>
-	<li><p style="margin-bottom: 0in">Результаты: папка
-	<code class="western">emotion_results/</code> 
-	</p></li>
-	<li><p>Содержит: графики для всех участников,
-	женщин, мужчин + отчет 
-	</p></li>
+<li>Результаты: папка <code>emotion_results/</code></li>
+<li>Содержит: графики для всех участников, женщин, мужчин + отчет</li>
 </ul>
-<h3 class="western"><a name="-9"></a>Дополнительные
-возможности</h3>
-<p><strong>Просмотр исследовательских
-ноутбуков:</strong></p>
-<pre class="western" style="margin-bottom: 0.2in"><code class="western">poetry run jupyter lab</code></pre>
+<h3 id="-9">Дополнительные возможности</h3>
+<p><strong>Просмотр исследовательских ноутбуков:</strong></p>
+<pre><code class="bash language-bash">poetry run jupyter lab
+</code></pre>
 <ul>
-	<li><p>Ноутбуки находятся в директориях
-	<code class="western">task1/</code> и <code class="western">task2/</code>
-		</p></li>
+<li>Ноутбуки находятся в директориях <code>task1/</code> и <code>task2/</code></li>
 </ul>
-<h2 class="western"><a name="-10"></a>📊 Стек технологий</h2>
+<h2 id="-10">📊 Стек технологий</h2>
 <ul>
-	<li><p style="margin-bottom: 0in"><strong>numpy</strong> - численные
-	вычисления 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>pandas</strong> -
-	обработка табличных данных 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>matplotlib</strong> -
-	построение графиков 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>seaborn</strong> -
-	улучшенная визуализация 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>mne</strong> - обработка
-	и анализ ЭЭГ-данных 
-	</p></li>
-	<li><p><strong>jupyter</strong> - интерактивные
-	ноутбуки для исследования 
-	</p></li>
+<li><strong>numpy</strong> - численные вычисления</li>
+<li><strong>pandas</strong> - обработка табличных данных</li>
+<li><strong>matplotlib</strong> - построение графиков</li>
+<li><strong>seaborn</strong> - улучшенная визуализация</li>
+<li><strong>mne</strong> - обработка и анализ ЭЭГ-данных</li>
+<li><strong>jupyter</strong> - интерактивные ноутбуки для исследования</li>
 </ul>
-<h2 class="western"><a name="-11"></a>📁 Структура
-результатов</h2>
-<pre class="western"><code class="western">project/</code>
-<code class="western">├── </code><code class="western">erp_results/          # Результаты задачи 1</code>
-<code class="western">│   ├── </code><code class="western">ERP_*.png        # 24 графика ERP</code>
-<code class="western">│   └── </code><code class="western">ERP_analysis_report.txt</code>
-<code class="western">├── </code><code class="western">emotion_results/      # Результаты задачи 2</code>
-<code class="western">│   ├── </code><code class="western">emotions_*.png   # Графики для всех участников</code>
-<code class="western">│   ├── </code><code class="western">women/           # Графики для женщин</code>
-<code class="western">│   ├── </code><code class="western">men/             # Графики для мужчин</code>
-<code class="western">│   └── </code><code class="western">emotion_analysis_report.txt</code>
-<code class="western">└── </code><code class="western">data/</code>
-<code class="western">    └── </code><code class="western">condition/       # Исходные данные</code></pre><h2 class="western">
-<a name="-12"></a>💡 Особенности реализации</h2>
+<h2 id="-11">📁 Структура результатов</h2>
+<pre><code>project/
+├── erp_results/          # Результаты задачи 1
+│   ├── ERP_*.png        # 24 графика ERP
+│   └── ERP_analysis_report.txt
+├── emotion_results/      # Результаты задачи 2
+│   ├── emotions_*.png   # Графики для всех участников
+│   ├── women/           # Графики для женщин
+│   ├── men/             # Графики для мужчин
+│   └── emotion_analysis_report.txt
+└── data/
+    └── condition/       # Исходные данные
+</code></pre>
+<p><b>Отчёт - `README.docx`, `README.md` (одинаковые, т.е. то что вы сейчас читаете - это тот же отчёт)</b></p>
+<p><b>Все графики и результаты можно скачать с облака - <a href="https://disk.yandex.ru/d/47AHfbfq4_uqUg">https://disk.yandex.ru/d/47AHfbfq4_uqUg</a></b></p>
+<h2 id="-12">💡 Особенности реализации</h2>
 <ol>
-	<li><p style="margin-bottom: 0in"><strong>Гибкая обработка
-	данных:</strong> код адаптирован под
-	различные форматы файлов и возможные
-	аномалии в данных 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>Качественная
-	визуализация:</strong> графики содержат
-	легенды, сетки, подписи и профессиональное
-	оформление 
-	</p></li>
-	<li><p style="margin-bottom: 0in"><strong>Подробная
-	отчетность:</strong> созданы текстовые
-	отчеты со статистикой обработки и
-	выявленными проблемами 
-	</p></li>
-	<li><p><strong>Модульная архитектура:</strong>
-	код разделен на логические функции для
-	удобства сопровождения 
-	</p></li>
+<li><strong>Гибкая обработка данных:</strong> код адаптирован под различные форматы файлов и возможные аномалии в данных</li>
+<li><strong>Качественная визуализация:</strong> графики содержат легенды, сетки, подписи и профессиональное оформление</li>
+<li><strong>Подробная отчетность:</strong> созданы текстовые отчеты со статистикой обработки и выявленными проблемами</li>
+<li><strong>Модульная архитектура:</strong> код разделен на логические функции для удобства сопровождения</li>
 </ol>
-<p>Все задачи выполнены в соответствии
-с техническим заданием, созданы все
-требуемые графики и отчеты.</p>
-</body>
-</html>
+<p>Все задачи выполнены в соответствии с техническим заданием, созданы все требуемые графики и отчеты.</p>
+      </body>
+      </html>
+    
